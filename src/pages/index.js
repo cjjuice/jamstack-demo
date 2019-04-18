@@ -63,6 +63,10 @@ export const pageQuery = graphql`
             shortBio
           }
           title
+          link {
+            url
+            desc
+          }
           heroImage: image {
             sizes(
               maxWidth: 1180
